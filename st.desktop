@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Exec=st -t "Simple Terminal" -e tmux -u2 new-session -A -s Main
+TryExec=st
+Encoding=UTF-8
+Icon=utilities-terminal
+Terminal=false
+Categories=System;TerminalEmulator;
+
+Name=Simple Terminal
+GenericName=Terminal
+Comment=Suckless terminal emulator for X
+StartupWMClass=st-256color
+Keywords=shell;prompt;command;commandline;cmd;
